@@ -6,19 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user-service-demo" />
+        <module name="eureka-server" />
         <module name="eureka-demo" />
+        <module name="user-service-demo" />
+        <module name="consumer-demo" />
+        <module name="user-service-demo (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consumer-demo" target="1.8" />
       <module name="eureka-demo" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="user-service-demo" target="1.8" />
+      <module name="user-service-demo (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-demo" options="-parameters" />
       <module name="eureka-demo" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="user-service-demo" options="-parameters" />
+      <module name="user-service-demo (1)" options="-parameters" />
     </option>
   </component>
 </project>
