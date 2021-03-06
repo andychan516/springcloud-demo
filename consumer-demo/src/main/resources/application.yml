@@ -15,8 +15,6 @@ spring:
         MaxAutoRetriesNextServer: 1 # 切换实例的重试次数
         MaxAutoRetries: 1 # 对当前实例的重试次数
 
-mybatis:
-  type-aliases-package: com.leyou.userservice.pojo
 eureka:
     client:
       service-url: # EurekaServer地址

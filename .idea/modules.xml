@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/consumer-demo/consumer-demo.iml" filepath="$PROJECT_DIR$/consumer-demo/consumer-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-feign-demo/consumer-demo (1).iml" filepath="$PROJECT_DIR$/consumer-feign-demo/consumer-demo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-demo.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server2/eureka-server (1).iml" filepath="$PROJECT_DIR$/eureka-server2/eureka-server (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-demo.iml" filepath="$PROJECT_DIR$/.idea/springcloud-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user-service-demo/user-service-demo.iml" filepath="$PROJECT_DIR$/user-service-demo/user-service-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service-demo2/user-service-demo (1).iml" filepath="$PROJECT_DIR$/user-service-demo2/user-service-demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-demo/zuul-demo.iml" filepath="$PROJECT_DIR$/zuul-demo/zuul-demo.iml" />
     </modules>
   </component>
 </project>
