@@ -16,7 +16,7 @@ public class UserService {
   public User queryById(Long id) {
     try {
       //Thread.sleep(new Random().nextInt(20000));
-    } catch (InterruptedException e) {
+    } catch (Exception e) {
       e.printStackTrace();
     }
     return this.userMapper.selectByPrimaryKey(id);
